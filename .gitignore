@@ -1,5 +1,5 @@
 # GRAILS files
-/web-app/WEB-INF
+#/web-app/WEB-INF
 /target
 /target-eclipse
 
