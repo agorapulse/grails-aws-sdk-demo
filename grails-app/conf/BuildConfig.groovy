@@ -9,7 +9,7 @@ grails.project.source.level = 1.6
 
 grails.project.fork = [
     // configure settings for compilation JVM, note that if you alter the Groovy version forked compilation is required
-    //  compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
+    // compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
 
     // configure settings for the test-app JVM, uses the daemon by default
     test: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
@@ -70,7 +70,7 @@ grails.project.dependency.resolution = {
         //runtime ":yui-minify-resources:0.1.5"
 
         runtime ":console:1.2"
-        runtime ':aws-sdk:1.5.6'
+        runtime ':aws-sdk:1.6.11'
     }
 }
 //grails.plugin.location.awsSdk = '../grails-aws-sdk/'
