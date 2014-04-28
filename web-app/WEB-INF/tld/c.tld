@@ -182,10 +182,10 @@ Collection of items to iterate over.
         <description>
 If items specified:
 Iteration begins at the item located at the
-specified indexRange. First item of the collection has
-indexRange 0.
+specified index. First item of the collection has
+index 0.
 If items not specified:
-Iteration begins with indexRange set at the value
+Iteration begins with index set at the value
 specified.
         </description>
 	<name>begin</name>
@@ -197,9 +197,9 @@ specified.
         <description>
 If items specified:
 Iteration ends at the item located at the
-specified indexRange (inclusive).
+specified index (inclusive).
 If items not specified:
-Iteration ends when indexRange reaches the value
+Iteration ends when index reaches the value
 specified.
         </description>
 	<name>end</name>
@@ -273,7 +273,7 @@ separate the tokens in the string).
     <attribute>
         <description>
 Iteration begins at the token located at the
-specified indexRange. First token has indexRange 0.
+specified index. First token has index 0.
         </description>
 	<name>begin</name>
 	<required>false</required>
@@ -283,7 +283,7 @@ specified indexRange. First token has indexRange 0.
     <attribute>
         <description>
 Iteration ends at the token located at the
-specified indexRange (inclusive).
+specified index (inclusive).
         </description>
 	<name>end</name>
 	<required>false</required>
