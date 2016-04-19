@@ -33,9 +33,6 @@ grails run-app
 
 Browse to :
 
-* <http://localhost:8080/aws-sdk-demo/>
-
-Right now there is only a basic S3 controller that list your S3 buckets.
-You can also access the console to test the plugin with your config.
+* <http://localhost:8080/>
 
 Feel free to contribute !

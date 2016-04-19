@@ -1,23 +1,22 @@
-# GRADLE files
-.gradle/
+# Grails
+
+application-DEVELOPMENT.yml
+
+# Gradle
+
 build/
+.gradle/
 
-# GRAILS files
-grails-app/assets/dependencies
+# Eclipse
 
-# IDE files
-.classpath
-.idea/
 .project
-.settings
-/*.launch
-/*.tmproj
+.classpath
+.settings/
 
-*.log
-*.zip
+# IDEA
+
 *.iml
-/out
-plugin.xml
-
-# test conf
-grails-app/conf/application.groovy
+*.ipr
+*.iws
+.idea/
+.asscache
