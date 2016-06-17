@@ -1,5 +1,6 @@
 package grails.plugin.awssdk.demo
 
+import com.amazonaws.services.s3.model.ObjectMetadata
 import grails.plugin.awssdk.s3.AmazonS3Service
 import org.springframework.web.multipart.MultipartFile
 
@@ -48,7 +49,7 @@ class S3Controller {
         if (!multipartFile || multipartFile.empty) {
             flash.message = message(code: 'default.not.created.message', args: ['File'])
         } else {
-            String fileUrl = amazonS3Service.storeFile(id, multipartFile.originalFilename, multipartFile.inputStream)
+            String fileUrl = amazonS3Service.storeMultipartFile(id, multipartFile.originalFilename, multipartFile)
             flash.message = message(code: 'default.created.message', args: ['File', fileUrl])
         }
         redirect action: 'show', id: id

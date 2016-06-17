@@ -22,4 +22,5 @@ if (Environment.isDevelopmentMode() && targetDir) {
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
     // Debug
     logger 'grails.plugins.awssdk', DEBUG, ['STDOUT'], false
+    logger 'com.amazonaws.services', WARN, ['STDOUT'], false
 }
